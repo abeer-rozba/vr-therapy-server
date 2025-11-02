@@ -4,7 +4,7 @@
   "description": "Privacy-preserving VR psychotherapy with Paillier homomorphic encryption",
   "main": "server/server.js",
   "scripts": {
-    "start": "node server/server.js",
+    "start": "node server.js",
     "dev": "nodemon server/server.js",
     "test": "node tests/encryption-test.js",
     "test:watch": "nodemon tests/encryption-test.js"
