@@ -1,0 +1,40 @@
+{
+  "name": "vr-therapy-prototype",
+  "version": "1.0.0",
+  "description": "Privacy-preserving VR psychotherapy with Paillier homomorphic encryption",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "nodemon server/server.js",
+    "test": "node tests/encryption-test.js",
+    "test:watch": "nodemon tests/encryption-test.js"
+  },
+  "keywords": [
+    "vr",
+    "therapy",
+    "encryption",
+    "homomorphic",
+    "paillier",
+    "privacy",
+    "healthcare"
+  ],
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/abeer-rozba/vr-therapy-server"
+  },
+  "bugs": {
+    "url": "https://github.com/abeer-rozba/vr-therapy-server/issues"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "paillier-bigint": "^3.4.3"
+  }
+}
